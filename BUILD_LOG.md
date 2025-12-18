@@ -48,9 +48,16 @@ A curated directory of SaaS tools that **only** lists products with transparent,
 - Additional affiliate revenue from tool recommendations
 - Potential for sponsored categories/newsletters
 
-## Live URL
+## Live URLs
 
-**Production**: (deployed to Vercel)
+**Production**: https://nodemo.vercel.app
+**GitHub**: https://github.com/daxtynh/daily-build-nodemo
+
+## Setup Instructions
+
+1. **Add Vercel Postgres**: Go to Vercel Dashboard → Storage → Create Database → Postgres
+2. **Seed the database**: Visit `https://nodemo.vercel.app/api/seed`
+3. **Add Stripe (optional)**: Add `STRIPE_SECRET_KEY` env var for featured listings
 
 ## Database Seeding
 
